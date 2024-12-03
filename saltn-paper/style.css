@@ -1,0 +1,611 @@
+/* body{
+    background-color: black;
+} */
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    list-style-type: none;
+    display: inline-flex;
+    margin-top: 40px;
+    /* justify-content: center; */
+    /* display: flex; */
+    /* gap: 25px; */
+}
+.menu >a{
+    gap: 1rem;
+    text-decoration: none;
+    color: black;
+    padding: 20px 40px;
+    font-style: 20px;
+    position: relative;
+    padding-top: -150px;
+}
+.menu :hover{
+    color: red;
+    cursor: pointer;
+}
+.bn-1{
+    border-radius: 1rem;
+    padding: 10px 10 px 10px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 120px;
+    /* width: 20vh; */
+    /* height: 6vh; */
+    /* background-color: orange; */
+}
+.bn-2{
+    border-radius: 1rem;
+    padding: 5px 5px 5px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-right: 60px;
+    /* width: 20vh; */
+    /* height: 6vh; */
+    /* background-color: orange; */
+    /* color: orange; */
+}
+.images{
+    margin: -40px;
+    padding-left: 80px;
+}
+.bn-1{
+    border-radius: 2rem;
+    background-color: black;
+    padding: 20px 20px 20px;
+    height: 5vh;    
+    margin-top: 40px;
+    color: white;
+}
+.bn-2{
+    border-radius: 2rem;
+    background-color: black;
+    padding: 20px 20px 20px;
+    height: 5vh;
+    margin-top: 40px;
+    color: white;
+}
+.bn-1 :hover{
+    color: red;
+    cursor: pointer;
+}
+.bn-2 :hover{
+    color: red;
+    cursor: pointer;
+}
+.bigger{
+    background-image: url(./ac51af11-090c-49e8-9296-472de72fc5cb.webp);
+    margin: -10px;
+}
+.written-1{
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+}
+.paragraph{
+    display: flex;
+    justify-content: center;
+}
+.photo{
+    display: flex;
+    justify-content: center;
+    gap: 9rem;
+    margin: 80px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    gap: 21rem;
+    margin: -22px;
+}
+.orders-1{
+    padding: 20px 20px 20px;
+    border-radius: 2rem;
+    background-color: black;
+    color: white;
+}
+.orders-2{
+    padding: 10px 10px 10px;
+    border-radius: 2rem;
+    background-color: black;
+    color: white;
+}
+.orders-3{
+    padding: 20px 20px 20px;
+    border-radius: 2rem;
+    background-color: black;
+    color: white;
+}
+.letter-1{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+.letter-2{
+    display: flex;
+    justify-content: center;
+}
+.letter{
+    margin: 150px;
+}
+.city{
+    padding-left: 200px;
+}
+.grid-1{
+    padding-left: 40rem;
+    margin: -20px;
+    margin-bottom: 150pxpx;
+}
+.buttons{
+    padding: 20px 20px 20px;
+    background-color: black;
+    border-radius: 2rem;
+    color: white;
+    margin: 40px;
+}
+.heading{
+   padding-left: 70rem;
+   margin: -250px;
+   
+    
+}
+.parent{
+    padding-left: 170px;
+}
+.colour-2{
+    color: red;
+}
+.colour-1{
+    color: red;
+}
+.reading{
+    padding: 20px 20px 20px;
+    border-radius: 2rem;
+    background-color: black;
+    color: white;
+    margin: 30px;
+}
+.colours{
+    font-size: 40px;
+}
+.capital-1{
+    color: red;
+}
+.capital{
+    padding-left: 130px;
+    margin: 190px;
+}
+.smaller{
+    padding-left: 60rem;
+   /* margin-bottom: 500px; */
+   margin: -10rem;
+}
+.font-1{
+    font-size: 70px;
+    margin-top: 220px;
+    display: flex;
+    justify-content: center;
+}
+.starter{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+.center{
+    padding-left: 180px;
+
+}
+.nave-item-2{
+    padding-left: -160px;
+}
+.nave-item-1{   
+    padding-left: 100px;
+    color: red;
+}
+.nave-item-5{
+    padding: 20px 20px 20px;
+    background-color: black;
+    border-radius: 2rem;
+    color: white;
+    /* padding-left: 40px; */
+     
+}
+.fixet{
+    padding-left: 60rem;
+    margin: -240px;
+}
+.nave-1{
+    padding-left: 100px;
+    color: red;
+    
+}
+.nave-5{
+    padding: 20px 20px 20px;
+    background-color: black;
+    border-radius: 2rem;
+    color: white;
+}
+.fixer{
+    padding-left: 72rem;
+}
+.item-1{
+    color: red;
+    padding-left: 100px;
+}
+.directoiin{
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+    margin: 70px;
+}
+.flexbox{
+    padding-left: 10rem;
+}
+.flexbox-1{
+    padding-left: 6rem;
+    color: red;
+}
+.flexbox-5{
+    padding: 20px 20px 20px;
+    background-color: black;
+    border-radius: 2rem;
+    color: white;   
+}
+.ovel{
+    padding-left: 55rem;
+    margin: -260px;
+}
+.ovel-5{
+    padding: 20px 20px 20px;
+    background-color: black;
+    border-radius: 2rem;
+    color: white; 
+}
+.ovel-1{
+    color: red;
+    padding-left: 100px;
+}
+.phase{
+    padding-left: 70rem;
+}
+.phase-5{
+    padding: 20px 20px 20px;
+    background-color: black;
+    border-radius: 2rem;
+    color: white;  
+}
+.phase-1{
+    color: red;
+    padding-left: 6rem;
+}
+.square-3{
+    width: 28rem;
+}
+.square{
+    margin: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+}
+.flow{
+    padding-left: 8rem;
+}
+.flow-1{    
+    padding-left: 6rem;
+    color: red;
+}
+.flow-5{
+    padding: 20px 20px 20px;
+    background-color: black;
+    border-radius: 2rem;
+    color: white;  
+}
+.equal{
+    padding-left: 53rem;
+    margin: -260px;
+}
+.equal-5{
+    padding: 20px 20px 20px;
+    background-color: black;
+    border-radius: 2rem;
+    color: white;  
+}
+.equal-1{
+    padding-left: 7rem;
+    color: red;
+}
+.box{
+    padding-left: 65rem;
+}
+.box-5{
+    padding: 20px 20px 20px;
+    background-color: black;
+    border-radius: 2rem;
+    color: white; 
+}
+.box-1{
+    padding-left: 7rem;
+    color: red;
+}
+.icon-1{
+    width: 28rem;
+}
+.icon-2{
+    width: 32rem;
+}
+.icon{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+.pk{
+    padding-left: 20rem;
+}
+.pk-1{
+    padding-left: 9rem;
+    color: red;
+}
+.pk-5{
+    padding: 20px 20px 20px;
+    background-color: black;
+    border-radius: 2rem;
+    color: white; 
+}
+.device{
+    padding-left: 70rem;
+    margin: -240px;
+}
+.device-1{
+    padding-left: 6rem;
+}
+.device-5{
+    padding: 20px 20px 20px;
+    background-color: black;
+    border-radius: 2rem;
+    color: white; 
+}
+.next{
+    margin: 30rem;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+.stable-1{
+    margin: -250px;
+    padding-left: 15rem;
+    /* height: 80vh; */
+}
+.shine{
+    padding-left: 58rem;
+    margin: -70px;
+}
+.shine-1{
+    color: red;
+}
+.shine-5{
+    padding: 20px 20px 20px;
+    background-color: green;
+    border-radius: 2rem;
+    color: white; 
+}
+.large-1{
+    margin: 20rem;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+}
+.salts{
+    border: 3px solid black;
+    width: 15rem;
+    padding-left: 100px;
+    /* justify-content: center; */
+}
+.salts-1{
+    padding-left: 25px;
+    margin: 20px;
+}
+.salts-2{
+    /* font-size: 15px; */
+    color: red;
+    padding-left: 40px;
+}
+.mobile{
+    border: 3px solid black;
+    width: 21rem;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+.phone{
+    border: 3px solid black;
+    width: 17rem;
+    padding-left: 100px;;
+    
+}
+.device-1{
+    color: red;
+}
+.phone-1{
+    padding-left: 1rem;
+    margin: 30px;
+}
+.phone-2{
+    color: red;
+    padding-left: 40px;
+}
+.mobile{
+    padding-left: 5rem;
+    width: 18rem;
+    /* margin: 30px; */
+    /* height: 30vh; */
+    padding-top: 30px;
+}
+.mobile-1{
+    padding-left: 4rem;
+}
+.mobile-2{
+    padding-left: 4rem;
+    color: red;
+}
+.luxery{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin: 80px;
+}
+.gold{
+    /* border: 3px solid black;
+    width: 25rem;
+    padding-left: 7rem; */
+    border: 3px solid black;
+    width: 17rem;
+    padding-left: 100px;;
+}
+.gold-1{
+    padding-left: 1rem;
+    margin: 30px;
+}
+.gold-2{
+    color: red;
+    padding-left: 40px;
+}
+.diamond{
+    border: 3px solid black;
+    width: 17rem;
+    padding-left: 100px;;
+}
+.diamond{
+    border: 3px solid black;
+    width: 17rem;
+    padding-left: 100px;;
+}
+
+.diamond-1{
+    padding-left: 1rem;
+    margin: 30px;
+}
+.diamond-2{
+    color: red;
+    padding-left: 40px;
+}
+.silver{
+    border: 3px solid black;
+    width: 17rem;
+    padding-left: 100px;;
+}
+.silver-1{
+    padding-left: 1rem;
+    margin: 30px;
+}
+.silver-2{
+    color: red;
+    padding-left: 40px;
+}
+.lux{
+    border: 3px solid black;
+    width: 17rem;  
+   margin: 0 auto;
+   /* width: 60rem; */
+   padding-left: 5rem;
+   
+       
+}
+
+.lux-1{
+    padding-left: 1rem;
+    margin: 30px;
+}
+.lux-2{
+    color: red;
+    padding-left: 40px;
+}
+.dishes-1{
+    width: 19rem;
+}
+.dishes-2{
+    width: 19rem;
+}
+.dishes-3{
+    width: 19rem;
+}
+.dishes-4{
+    width: 19rem;
+}
+.dishes-5{
+    width: 19rem;
+}
+.feed-1{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+.feed :hover{
+    cursor: pointer;
+    color: blue;
+}
+.home{
+    margin: 10rem;
+}
+.line{
+    display: flex;
+    justify-content: center;
+    margin: -30rem;
+}
+.line-1{
+    list-style-type: none;
+    
+}
+.type{
+    padding-left: 60rem;
+    padding-top: 15rem;
+    border-bottom: 3px solid black;
+}
+.follow{
+    padding-left: 105rem;
+    margin: -30rem;
+}
+.follow :hover{
+    cursor: pointer;
+}
+.type :hover{
+    cursor: pointer;
+}
+.line :hover{
+    cursor: pointer;
+}
+.home :hover{
+    cursor: pointer;
+}
+.dishes :hover{
+    cursor: pointer;
+}
+.mouse{
+    padding-top: 50rem;
+}
+.mouse-2{
+    padding-left: 70rem;
+    margin: -20px;
+}
+.mouse-1{
+    padding-left: 10rem;
+    padding-top: 2rem;
+}
+.main :hover{
+    cursor: pointer;
+}
+.luxery :hover{ 
+    cursor: pointer;
+}
+.lux :hover{
+    cursor: pointer;
+}
+
