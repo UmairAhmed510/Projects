@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Todo App</h1>
+        <div class="todo-app">
+            <div class="row">
+                <input  id="input-box" type="text"  placeholder="Add Task">
+                <button onclick="addtodo()" id="add-btn">Add</button>
+            </div>
+            <ul id="ul" class="list-container">
+            <li id="li" class="checked">
+            <p class="work">workout</p> 
+            </li>
+            <li class="checked">
+                <p class="work">Study</p> 
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="./list.js"></script>
+</body>
+</html>
